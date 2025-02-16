@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QNC Tutor Finder - Find Your Perfect Tutor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="QNC Tutor Finder" class="logo-img">
+                </a>
+            </div>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+                <a href="register.html" class="btn btn-primary">Register</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="find-tutor.html">Find Tutor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="advertisements.html">Advertisements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 mb-4">Find Your Perfect Tutor</h1>
+                    <p class="lead mb-4">Connect with qualified tutors across Sri Lanka</p>
+                    <div class="search-box p-4 rounded">
+                        <form class="row g-3">
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="col-md-5">
+                                <select class="form-select">
+                                    <option selected>Select Grade</option>
+                                    <option>Grade 6-9</option>
+                                    <option>O/L</option>
+                                    <option>A/L</option>
+                                    <option>University</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-primary w-100">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Bar -->
+    <section class="features-bar py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <i class="fas fa-user-graduate feature-icon"></i>
+                    <h4>Qualified Tutors</h4>
+                    <p>Find experienced and qualified tutors</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-map-marker-alt feature-icon"></i>
+                    <h4>Location Based</h4>
+                    <p>Find tutors in your area</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h4>Flexible Schedule</h4>
+                    <p>Choose timing that works for you</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h4>Verified Profiles</h4>
+                    <p>All tutors are verified</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction and Map Section -->
+    <section class="intro-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2>Welcome to QNC Tutor Finder</h2>
+                    <p class="lead">Connecting students with the best tutors across Sri Lanka</p>
+                    <p>QNC Tutor Finder is your trusted platform for finding qualified and experienced tutors. Whether you're preparing for O/L, A/L, or university exams, we have the right tutor for you.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i>Verified tutors</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Flexible scheduling</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Affordable rates</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Island-wide coverage</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <img src="images/sri-lanka-map.png" alt="Sri Lanka Map" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">How It Works</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="step-circle">1</div>
+                    <h4>Search</h4>
+                    <p>Search for tutors based on subject and grade level</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="step-circle">2</div>
+                    <h4>Connect</h4>
+                    <p>Connect with tutors and discuss your requirements</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="step-circle">3</div>
+                    <h4>Learn</h4>
+                    <p>Start learning and achieve your goals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Advertisements -->
+    <section class="recent-ads py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Recent Advertisements</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Mathematics Tutor</h5>
+                            <p class="card-text">O/L Mathematics tutor available in Colombo</p>
+                            <p class="text-muted"><i class="fas fa-map-marker-alt"></i> Colombo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Science Teacher</h5>
+                            <p class="card-text">A/L Biology and Chemistry tutor</p>
+                            <p class="text-muted"><i class="fas fa-map-marker-alt"></i> Kandy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">English Language</h5>
+                            <p class="card-text">English speaking and writing classes</p>
+                            <p class="text-muted"><i class="fas fa-map-marker-alt"></i> Galle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Cards -->
+    <section class="register-cards py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Join Our Community</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-user-graduate display-4 mb-3"></i>
+                            <h3>Are you a Student?</h3>
+                            <p>Find the perfect tutor for your studies</p>
+                            <a href="register.html?type=student" class="btn btn-primary">Register as Student</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chalkboard-teacher display-4 mb-3"></i>
+                            <h3>Are you a Tutor?</h3>
+                            <p>Share your knowledge and earn</p>
+                            <a href="register.html?type=tutor" class="btn btn-primary">Register as Tutor</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>About QNC Tutor Finder</h5>
+                    <p>Connecting students with qualified tutors across Sri Lanka. Find the perfect tutor for your educational needs.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="find-tutor.html">Find Tutor</a></li>
+                        <li><a href="advertisements.html">Advertisements</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone me-2"></i> +94 XX XXX XXXX</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@qnctutorfinder.com</li>
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Colombo, Sri Lanka</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2024 QNC Tutor Finder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
